@@ -61,14 +61,19 @@ function  generatePassword() {
     preferences.push(uppercaseList)
   }
 
-  var generatedPassword = ""
+  if (preferences.length === 0) {
+    preferences.push(lowercaseList)
+  }
+
+  var generatePassword = ""
 
   for (var i = 0; i < passwordLength; i++) {
     var randomList = getRandomItem(preferences)
     var randomChar = getRandomItem(randomList)
-    generatedPassword += randomChar
+    generatePassword += randomChar
   }
 
+  return generatePassword
 }
 
 
