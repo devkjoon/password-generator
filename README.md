@@ -4,7 +4,7 @@
 
 The motivation for this project was to further my understanding of Javascript by creating and altering a starting template into a working and responsive website. The starter code given to us at first only displayed the basic template of the website including HTML, CSS, and minor Javascript (but not functional) code. My goal was to update the Javascript into a working code and create a user involvement environment by asking the password criteria and adjusting the output depending on what the user selects. When pressing the generate button beforehand, the program did not display or execute any process. However after adjusting and adding many lines of code, the website now asks for your password criteria preferences and generates a password within the criteria that was selected. Throughout this project, I was able to further my knowledge of basic Javascript, for loops, if-else statements, functions, and return keys.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
@@ -15,7 +15,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-Click submitted link. Link is also as follows: 
+Click submitted link. Link is also as follows: https://joonkidk.github.io/password-generator/
 
 ## Usage
 
